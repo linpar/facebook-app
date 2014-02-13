@@ -9,7 +9,7 @@ $domain = 'http://www.linpar.tk/';	// Address of site
 $base = 'http://fb.linpar.tk/';	// Address of script
 
 $root = explode('\\', $_SERVER['DOCUMENT_ROOT']);
-$root =  $root[0] . '/fb/'; // Add root path of script after '/' and end it with '/'
+$root =  $root[0] . '/'; // Add root path of script after '/' and end it with '/'
 
 /** App's Basic Details **/
 $website_title = 'Nitish Test App';

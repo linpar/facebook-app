@@ -1,6 +1,7 @@
 <?php
   	require_once('config.php');
   	require_once('src/facebook.php');
+  	$page_title = 'Welcome';
 
   	$config = array(
     	'appId' => $fb_app_id,
@@ -14,21 +15,8 @@
 <!DOCTYPE html>
 <html lang="en">
   	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Meta Tags -->
-		<meta name="title" content="Welcome | <?php echo $website_title;?>">
-		<meta name="description" content="<?php echo $website_description;?>">
-
-		<!-- Facebook Meta Tags -->
-		<meta property="og:title" content="Welcome | <?php echo $website_title;?>"/>
-		<meta property="og:url" content="<?php echo $page_url;?>"/>
-		<meta property="og:site_name" content="<?php echo $website_title;?>"/>
-		<meta property="og:type" content="website"/>
-		<meta property="og:image" content="<?php echo $website_logo;?>"/>
-		<meta property="og:description" content="<?php echo $website_description;?>"/>
-	
-  		<link rel="stylesheet" type="text/css" href="<?php echo $base;?>/css/bootstrap.min.css">
-  		<title>Welcome | <?php echo $website_title;?></title>
+  		<?php include_once($root.'inc/header.inc.php'); ?>
+  		
   	</head>
   	<body>
 		<div class="container">
