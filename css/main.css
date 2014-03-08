@@ -1,0 +1,90 @@
+html,body {
+  	position: relative;
+  	height: 100%;
+}
+body { 
+	padding-top: 70px;
+}
+.main_container {
+	padding-bottom: 70px;
+	margin-bottom: -60px;
+	min-height: 100%;
+	position: relative;
+}
+.navbar-custom {
+	background: #2B2B2B;
+}
+.nav-bottom {
+	border: 0;
+	margin: 0;
+	height: 7px;
+	float: left;
+}
+.nav-bottom.b1 {
+	width: 70%;
+	background: #E26A6A;
+}
+.nav-bottom.b2 {
+	width: 30%;
+	background: #6dbddc;
+}
+.navbar-default .navbar-brand {
+	color: #D8D8D8;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #D8D8D8;
+	border-bottom: 2px solid #474747;
+	padding-bottom: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #FFF;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #CFCECE;
+}
+.level-text {
+	text-align: center;
+}
+.level-text h1 {
+	margin: 10px 0 5px 0;
+}
+.question-text {
+	text-align: center;
+	margin: 40px auto 10px auto;
+}
+.question-image {
+	margin: 10px 0 20px 0;
+}
+.answer-box {
+	text-align: center;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.hr_after_level_head {
+	border: 0;
+	margin: 0 auto;
+	width: 70%;
+	height: 3px;
+	background: #3AD7EC;
+}
+#answer-message {
+	margin: 10px auto 10px auto;
+}
+
+#footer {
+ 	/* Set the fixed height of the footer here */
+  	height: 60px;
+  	background-color: #f5f5f5;
+  	line-height: 60px;
+}

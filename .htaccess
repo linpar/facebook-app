@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+Options +Indexes
+Options -Multiviews
+RewriteEngine on
+
+
+# For localhost
+RewriteRule	^level/([0-9]+)/?$	/fb/level.php?level=$1	[NC,L]	# Handle product requests
+RewriteRule	^level/?$	/fb/level.php?level=$1	[NC,L]	# Handle product requests
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ /fb/$1.php [L,QSA]
